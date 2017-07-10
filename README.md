@@ -2,7 +2,7 @@
 Pembangunan website Roemah Citra
 
 Pertama2 kalo mau edit
- 1. Clone repository ini
+ 1. Clone repository ini, caranya `git clone https://github.com/StreptoProgramming/Roemah-Citra.git`
 
 Kalo udah clone
  1. `git commit -am "APA AJA"`
