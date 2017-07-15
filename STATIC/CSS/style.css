@@ -143,6 +143,7 @@ text-decoration: none;
 #keung .bag#tiga {
 	margin-right: 5%;
 }
+
 .pack {
 width: 250px;
     float: left;
@@ -233,4 +234,59 @@ footer {
 	text-align:center;
 	padding: 15px;
 	color: #999;
+}
+
+.Ourpackage {
+	background: #FF8C73;
+	text-align: center;
+	padding: 50px;
+}
+
+.PicturePackage {
+	background-position: center;
+	background: #EFF7CF;
+	padding: 10px;
+}
+
+.packsquare{
+	border: solid 250px #D7C9AA;
+}
+
+.padpackage{
+	background-position: center;
+	background : #D3EFFB;
+	padding: 200px;
+}
+
+.allinpackage{
+	width :300;
+	height: 300;
+	float: left;
+	margin: 4px;
+	background-color: black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.cateringonly{
+	width :300;
+	height: 300;
+	float: right;
+	margin: 4px;
+	background-color: black;
+	background-size: 100%;
+	background-position: center;
+}
+
+#padketentuan{
+	background-position: center;
+	background: #EFF7CF;
+	padding: 10px;
+}
+
+.ketentuan{
+	width :300;
+	background-color: black;
+	float: center;
+	margin-left: 500px;
 }
