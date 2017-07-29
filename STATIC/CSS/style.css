@@ -169,7 +169,7 @@ width: 250px;
 	display: table;
 }
 #subscribe .email,#subscribe .submit {
-padding: 10px;
+	padding: 10px;
     border: 0;
     line-height: 30px;
     font-size: 20px;
@@ -237,7 +237,7 @@ footer {
 }
 
 .Ourpackage {
-	background: #FF8C73;
+	background: #FFFFFF;
 	text-align: center;
 	padding: 50px;
 }
@@ -254,8 +254,8 @@ footer {
 
 .padpackage{
 	background-position: center;
-	background : #D3EFFB;
-	padding: 200px;
+	background : #FFFFFF;
+	padding: 50px;
 }
 
 .allinpackage{
@@ -263,9 +263,10 @@ footer {
 	height: 300px;
 	float: left;
 	margin: 4px;
-	background-color: black;
+	background-color: #8DD5DB;
 	background-size: 100%;
 	background-position: center;
+	margin-left: 200px;
 }
 
 .cateringonly{
@@ -273,9 +274,32 @@ footer {
 	height: 300px;
 	float: right;
 	margin: 4px;
-	background-color: black;
+	background-color: #FFB997;
 	background-size: 100%;
 	background-position: center;
+	margin-right: 200px;
+}
+
+.dekorasionly{
+	width :300px;
+	height: 300px;
+	float: left;
+	margin: 4px;
+	background-color: #8DD5DB;
+	background-size: 100%;
+	background-position: center;
+	margin-left: 200px;
+}
+
+.WOonly {
+	width :300px;
+	height: 300px;
+	float: right;
+	margin: 4px;
+	background-color: #FFB997;
+	background-size: 100%;
+	background-position: center;
+	margin-right: 200px;	
 }
 
 #padketentuan{
@@ -354,7 +378,20 @@ footer {
 	width: 300px;
 	height: 100px;
 	float : left;
-	background: black;
+	background: #F69B81;
 	background-size: 100%;
 	background position: center;
+}
+
+.klik_ketentuan{
+	padding: 10px 30px;
+	text-align: center;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: serif;
+    outline: none;
+    height: auto;
+    margin: auto;
+    display: table;
 }
