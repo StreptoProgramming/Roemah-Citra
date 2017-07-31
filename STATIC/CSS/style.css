@@ -291,6 +291,9 @@ footer {
 	background: #FFFFFF;
 	text-align: center;
 	padding: 50px;
+	letter-spacing: 5px;
+	font-family: "bebas";
+	font-size: 40px;
 }
 
 .PicturePackage {
@@ -318,6 +321,8 @@ footer {
 	background-size: 100%;
 	background-position: center;
 	margin-left: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;
 }
 
 .cateringonly{
@@ -329,6 +334,8 @@ footer {
 	background-size: 100%;
 	background-position: center;
 	margin-right: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;
 }
 
 .dekorasionly{
@@ -340,6 +347,8 @@ footer {
 	background-size: 100%;
 	background-position: center;
 	margin-left: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;
 }
 
 .WOonly {
@@ -350,7 +359,9 @@ footer {
 	background-color: #FFB997;
 	background-size: 100%;
 	background-position: center;
-	margin-right: 200px;	
+	margin-right: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;	
 }
 
 #padketentuan{
@@ -362,19 +373,20 @@ footer {
 .ketentuan{
 	width :300px;
 	background-color: black;
-	float: center;
+	float: center; 
 	margin-left: 500px;
 }
 
 .padnamapack{
-	background: #FF8C73;
+	background: #FFFFFF;
 	text-align: center;
-	padding: 50px;	
+	padding: 50px;
+	font-family: "bebas";	
 }
 
 .padbuffstand{
 	background-position: center;
-	background: #BFD7EA;
+	background: #FFFFFF;
 	padding: 20px;
 }
 
@@ -400,33 +412,36 @@ footer {
 
 .padpilmenu{
 	background-position: center;
-	background: #726AD9;
+	background: #FFFFFF;
 	padding: 50px;
+	font-family: "bebas";
 }
 
 .padpilpackage{
 	background-position: center;
-	background : #F9A151;
+	background : white;
 	padding: 50px;
+	font-family: "bebas";
 }
 
 .padpilpackage2{
 	background-position: center;
-	background : #BFD7EA;
+	background : white;
 	padding: 100px;
 }
 
 .pict_pilZamrud{
-	width: 300px;
+	width: 400px;
 	height: 300px;
 	float : left;
 	background : black;
 	background-size: 100%;
 	background-position: center;
+	font-family: "arno pro";
 }
 
 .nama_package{
-	width: 300px;
+	width: 400px;
 	height: 100px;
 	float : left;
 	background: #F69B81;
