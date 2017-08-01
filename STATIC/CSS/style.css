@@ -101,6 +101,12 @@ text-decoration: none;
 	font-family: arial, sans-serif;
 	margin-bottom: 30px;
 }
+#boutbox-aboutus{
+	background: #fdeadb;
+	margin: 30px auto;
+	padding: 50px 10px;
+}
+}
 #about #boutbox {
 	max-width: 800px;
 	min-height: 400px;
@@ -111,6 +117,7 @@ text-decoration: none;
 #about #boutbox .bagi{
 	float: left;
 	width: 50%;
+	margin: 
 }
 #about .bulet {
 	background: #000;
@@ -142,6 +149,20 @@ text-decoration: none;
 }
 #keung .bag#tiga {
 	margin-right: 5%;
+}
+#vendor{
+	background: #fdeadb;
+	margin: 30px auto;
+	padding: 50px 50px;
+}
+.icon{
+	display: inline-block;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	float:left;
+	margin: 10px;
 }
 
 .pack {
