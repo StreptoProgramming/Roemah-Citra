@@ -18,6 +18,18 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+@font-face {
+    font-family: arno;
+    src: url(./Font/Arno/ArnoPro-Regular.otf);
+}
+@font-face {
+    font-family: bebas;
+    src: url(./Font/Bebas/BEBAS___.ttf);
+}
+@font-face {
+    font-family: rogue;
+    src: url(./Font/Rogue/RougeScript-Regular.ttf);
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -25,6 +37,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+
 }
 ol, ul {
 	list-style: none;
@@ -61,6 +74,7 @@ float: left;
 nav{
 	float:right;
 	margin-top: 40px;
+	font-family:arno;
 }
 nav ul, nav li{
 list-style:none;
@@ -75,31 +89,44 @@ display: table;
 	}
 nav li{
     display: inline-block;
-    padding: 10px;
+
 }
 nav li a{
 color: #000!important;
 font-weight: bold;
 font-size: 120%;
 text-decoration: none;
+    padding: 10px 15px;
+	border: 3px solid #fff;
+	border-radius: 35px;
+}
+nav li a:hover{
+	border-color: #fdeadb;
 }
 #slider{
 	background:#fdeadb;
 	width:100%;
 	min-height: 500px;
 }
-.container{
+.container {
+	
+}
+.maxer{
 	min-height: 500px;
 	padding: 30px 10px;
-	max-width: 800px;
+	max-width: 968px;
 	margin: 0 auto;
 }
-.container h2.judu{
+ h2.judu{
 	font-size: 300%;
 	font-weight:bold;	
 	text-align: center;
-	font-family: arial, sans-serif;
-	margin-bottom: 30px;
+	font-family: bebas,arial, sans-serif;
+    margin: 30px auto;
+}
+#about{
+		    background: url(./img/pattern.jpg);
+    background-repeat: repeat;
 }
 #boutbox-aboutus{
 	background: #fdeadb;
@@ -108,16 +135,22 @@ text-decoration: none;
 }
 }
 #about #boutbox {
-	max-width: 800px;
-	min-height: 400px;
-	background: #ddd;
-	border: 2px solid #000;
+
+	background: #fdeadb;
 	margin: 30px auto;
 }
 #about #boutbox .bagi{
 	float: left;
+<<<<<<< HEAD
 	width: 50%;
 	margin: 
+=======
+	width: 40%;
+}
+#about #boutbox .bagi2{
+	float: left;
+	width: 60%;
+>>>>>>> 39816ee5ecaf8257b343a1f13f8f628e94eb66f5
 }
 #about .bulet {
 	background: #000;
@@ -127,28 +160,50 @@ text-decoration: none;
 	display: block;
 	width: 100%;
 }
+#about .boutcon {
+	padding: 50px;
+}
+#testimoni {
+	margin-top: 70px;
+}
 .bagi#dua {
 	display:block;
 	width: 100%;
 }
 .readm {
-	background: #4f81bc;
-	display: table;
-	padding: 10px;
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
-	border-radius: 5px;
+    background: #93683e;
+    display: table;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 140%;
+    font-family: arno;
+    line-height: 100%;
 }
-#keung .bag{
-	width:30%;
+.keung {
+	max-width:968px;
+	margin: 0 auto;
+}
+.keung .bag{
+	width:25%;
 	float: left;
 }
-#keung .bag#satu {
-	margin-left: 5%;
+.keung h2{
+	font-size: 150%;
+	margin-bottom: 70px;
 }
-#keung .bag#tiga {
-	margin-right: 5%;
+#keunggul .bulet{
+background: #ddd;
+    width: 60%;
+    /* height: 60%; */
+    margin: 0 auto -50%;
+}
+#testimoni  .bulet img{
+width: 90%;
+    display: block;
+    margin: 30px auto;
 }
 #vendor{
 	background: #fdeadb;
@@ -190,7 +245,7 @@ width: 250px;
 	display: table;
 }
 #subscribe .email,#subscribe .submit {
-padding: 10px;
+	padding: 10px;
     border: 0;
     line-height: 30px;
     font-size: 20px;
@@ -258,9 +313,12 @@ footer {
 }
 
 .Ourpackage {
-	background: #FF8C73;
+	background: #FFFFFF;
 	text-align: center;
 	padding: 50px;
+	letter-spacing: 5px;
+	font-family: "bebas";
+	font-size: 40px;
 }
 
 .PicturePackage {
@@ -275,28 +333,60 @@ footer {
 
 .padpackage{
 	background-position: center;
-	background : #D3EFFB;
-	padding: 200px;
+	background : #FFFFFF;
+	padding: 50px;
 }
 
 .allinpackage{
-	width :300;
-	height: 300;
+	width :300px;
+	height: 300px;
 	float: left;
 	margin: 4px;
-	background-color: black;
+	background-color: #8DD5DB;
 	background-size: 100%;
 	background-position: center;
+	margin-left: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;
 }
 
 .cateringonly{
-	width :300;
-	height: 300;
+	width :300px;
+	height: 300px;
 	float: right;
 	margin: 4px;
-	background-color: black;
+	background-color: #FFB997;
 	background-size: 100%;
 	background-position: center;
+	margin-right: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;
+}
+
+.dekorasionly{
+	width :300px;
+	height: 300px;
+	float: left;
+	margin: 4px;
+	background-color: #8DD5DB;
+	background-size: 100%;
+	background-position: center;
+	margin-left: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;
+}
+
+.WOonly {
+	width :300px;
+	height: 300px;
+	float: right;
+	margin: 4px;
+	background-color: #FFB997;
+	background-size: 100%;
+	background-position: center;
+	margin-right: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;	
 }
 
 #padketentuan{
@@ -306,8 +396,93 @@ footer {
 }
 
 .ketentuan{
-	width :300;
+	width :300px;
 	background-color: black;
-	float: center;
+	float: center; 
 	margin-left: 500px;
+}
+
+.padnamapack{
+	background: #FFFFFF;
+	text-align: center;
+	padding: 50px;
+	font-family: "bebas";	
+}
+
+.padbuffstand{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+.pictbuffet{
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pictstand{
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	position: relative;
+}
+
+.padpilmenu{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 50px;
+	font-family: "bebas";
+}
+
+.padpilpackage{
+	background-position: center;
+	background : white;
+	padding: 50px;
+	font-family: "bebas";
+}
+
+.padpilpackage2{
+	background-position: center;
+	background : white;
+	padding: 100px;
+}
+
+.pict_pilZamrud{
+	width: 400px;
+	height: 300px;
+	float : left;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+	font-family: "arno pro";
+}
+
+.nama_package{
+	width: 400px;
+	height: 100px;
+	float : left;
+	background: #F69B81;
+	background-size: 100%;
+	background position: center;
+}
+
+.klik_ketentuan{
+	padding: 10px 30px;
+	text-align: center;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: serif;
+    outline: none;
+    height: auto;
+    margin: auto;
+    display: table;
 }
