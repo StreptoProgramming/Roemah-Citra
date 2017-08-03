@@ -132,6 +132,12 @@ nav li a:hover{
 		    background: url(./img/pattern.jpg);
     background-repeat: repeat;
 }
+#boutbox-aboutus{
+	background: #fdeadb;
+	margin: 30px auto;
+	padding: 50px 10px;
+}
+}
 #about #boutbox {
 
 	background: #fdeadb;
@@ -139,11 +145,16 @@ nav li a:hover{
 }
 #about #boutbox .bagi{
 	float: left;
+<<<<<<< HEAD
+	width: 50%;
+	margin: 
+=======
 	width: 40%;
 }
 #about #boutbox .bagi2{
 	float: left;
 	width: 60%;
+>>>>>>> 39816ee5ecaf8257b343a1f13f8f628e94eb66f5
 }
 #about .bulet {
 	background: #000;
@@ -198,6 +209,20 @@ width: 90%;
     display: block;
     margin: 30px auto;
 }
+#vendor{
+	background: #fdeadb;
+	margin: 30px auto;
+	padding: 50px 50px;
+}
+.icon{
+	display: inline-block;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	float:left;
+	margin: 10px;
+}
 
 .pack {
 width: 250px;
@@ -224,7 +249,7 @@ width: 250px;
 	display: table;
 }
 #subscribe .email,#subscribe .submit {
-padding: 10px;
+	padding: 10px;
     border: 0;
     line-height: 30px;
     font-size: 20px;
@@ -292,9 +317,12 @@ footer {
 }
 
 .Ourpackage {
-	background: #FF8C73;
+	background: #FFFFFF;
 	text-align: center;
 	padding: 50px;
+	letter-spacing: 5px;
+	font-family: "bebas";
+	font-size: 40px;
 }
 
 .PicturePackage {
@@ -309,8 +337,8 @@ footer {
 
 .padpackage{
 	background-position: center;
-	background : #D3EFFB;
-	padding: 200px;
+	background : #FFFFFF;
+	padding: 50px;
 }
 
 .allinpackage{
@@ -318,9 +346,12 @@ footer {
 	height: 300px;
 	float: left;
 	margin: 4px;
-	background-color: black;
+	background-color: #8DD5DB;
 	background-size: 100%;
 	background-position: center;
+	margin-left: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;
 }
 
 .cateringonly{
@@ -328,9 +359,38 @@ footer {
 	height: 300px;
 	float: right;
 	margin: 4px;
-	background-color: black;
+	background-color: #FFB997;
 	background-size: 100%;
 	background-position: center;
+	margin-right: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;
+}
+
+.dekorasionly{
+	width :300px;
+	height: 300px;
+	float: left;
+	margin: 4px;
+	background-color: #8DD5DB;
+	background-size: 100%;
+	background-position: center;
+	margin-left: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;
+}
+
+.WOonly {
+	width :300px;
+	height: 300px;
+	float: right;
+	margin: 4px;
+	background-color: #FFB997;
+	background-size: 100%;
+	background-position: center;
+	margin-right: 200px;
+	font-family: "bebas";
+	letter-spacing: 4px;	
 }
 
 #padketentuan{
@@ -342,19 +402,20 @@ footer {
 .ketentuan{
 	width :300px;
 	background-color: black;
-	float: center;
+	float: center; 
 	margin-left: 500px;
 }
 
 .padnamapack{
-	background: #FF8C73;
+	background: #FFFFFF;
 	text-align: center;
-	padding: 50px;	
+	padding: 50px;
+	font-family: "bebas";	
 }
 
 .padbuffstand{
 	background-position: center;
-	background: #BFD7EA;
+	background: #FFFFFF;
 	padding: 20px;
 }
 
@@ -380,36 +441,52 @@ footer {
 
 .padpilmenu{
 	background-position: center;
-	background: #726AD9;
+	background: #FFFFFF;
 	padding: 50px;
+	font-family: "bebas";
 }
 
 .padpilpackage{
 	background-position: center;
-	background : #F9A151;
+	background : white;
 	padding: 50px;
+	font-family: "bebas";
 }
 
 .padpilpackage2{
 	background-position: center;
-	background : #BFD7EA;
+	background : white;
 	padding: 100px;
 }
 
 .pict_pilZamrud{
-	width: 300px;
+	width: 400px;
 	height: 300px;
 	float : left;
 	background : black;
 	background-size: 100%;
 	background-position: center;
+	font-family: "arno pro";
 }
 
 .nama_package{
-	width: 300px;
+	width: 400px;
 	height: 100px;
 	float : left;
-	background: black;
+	background: #F69B81;
 	background-size: 100%;
 	background position: center;
+}
+
+.klik_ketentuan{
+	padding: 10px 30px;
+	text-align: center;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: serif;
+    outline: none;
+    height: auto;
+    margin: auto;
+    display: table;
 }
