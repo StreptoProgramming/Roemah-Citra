@@ -461,3 +461,197 @@ footer {
     margin: auto;
     display: table;
 }
+
+.padjudulketentuan {
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 20px;
+	font-family: "bebas";
+}
+
+.pad_isi_ketentuan{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 100px;
+}
+
+.padpilmenu {
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 50px;
+}
+
+.padpilmenu2{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 100px;
+}
+
+.pict_pilmenukiri{
+	width: 400px;
+	height: 300px;
+	float : left;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pict_pilmenukanan{
+	width: 400px;
+	height: 300px;
+	float : right;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.nama_menu_kiri{
+	width: 400px;
+	height: 100px;
+	float : left;
+	background: #F69B81;
+	background-size: 100%;
+	background position: center;
+	font-family: "arno pro";
+}
+
+.nama_menu_kanan{
+	width: 400px;
+	height: 100px;
+	float : right;
+	background: #F69B81;
+	background-size: 100%;
+	background position: center;
+	font-family: "Arno Pro";
+}
+
+.permata_c {
+	width: 400px;
+	height: 100px;
+	float: left;
+	background: #F69B81;
+	background-size: 100%; 
+	background-position: center;
+	font-family: "Arno Pro";
+	margin-top: 300px;
+	margin-left: -400px;
+}
+
+.pad_rias{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.pict_rias{
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pad_catering_package{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.pict_catering_package{
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pad_dekorasi_package{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.pict_dekorasi_package{
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pad_WO_package{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.pict_WO_package{
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pad_photography {
+	background-position: center;
+	background: #FFFFFF;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.pad_profesi{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.pad_entertainment{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.pad_kostum{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 20px;
+	font-family: "bebas";
+}
+
+.pad_judul_menu_kostum{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 10px;
+	font-family: "bebas";  
+}
+
+.pad_list_menu_kostum{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 50px;
+	font-family: "arno pro";  
+}
+
+.pad_pil_kostum{
+	background-position: center;
+	background: #FFFFFF;
+	padding: 50px;
+	font-family: "bebas";
+}
+
+
