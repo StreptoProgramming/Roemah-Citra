@@ -3,6 +3,9 @@
 <title>Rumah Citra</title>
 <link  rel='stylesheet' type='text/css' href='./STATIC/CSS/style.css'/>
 <script type='text/javascript' src='./STATIC/JS/jquery.js'></script>
+<!-- Stylesheet -->
+<link rel="stylesheet" href="./STATIC/CSS/fss.css">
+<script src="./STATIC/JS/fss.js"></script>
 <style type='text/css'>
 
 </style>
@@ -26,7 +29,12 @@ Roemah-Citra
 <div style='clear:both;'></div>
 </div>
 <div id='slider'>
-
+<ul id="slider-demo" class="slider-list">
+  <li class="current"><iframe style='width: 100%;
+    height: 100%;' src="https://www.youtube.com/embed/BmjCU1nHWjI?autoplay=1" frameborder="0" allowfullscreen></iframe></li>
+  <li><img src="https://i.redd.it/bf8vr6gieicz.jpg" alt=""></li>
+  <li><img src="https://i.redditmedia.com/uw5Y67_8XK81tfGMqxrtOP-7FNvSr7Ea3SjBWO8qbQA.jpg?w=1024&s=a45c8d9460a554d39348d0e09fc71b75" alt=""></li>
+</ul>
 </div>
 <div id='about' class='container'>
 <div class='maxer'>
@@ -219,5 +227,16 @@ next/prev/more from our blog
 <div class='kaki'>
 designed by StreptoProgramming
 </div>
+<script>
+$(document).ready(function () {
+    $('#slider-demo').freeSimpleSlider({
+        dots: true,
+        arrows: true,
+        time: 3000,
+        animation: "fade"
+    });
+
+});
+</script>
 </body>
 </html>

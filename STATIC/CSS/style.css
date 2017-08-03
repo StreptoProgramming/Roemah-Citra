@@ -104,9 +104,13 @@ nav li a:hover{
 	border-color: #fdeadb;
 }
 #slider{
-	background:#fdeadb;
+	background:#222;
 	width:100%;
-	min-height: 500px;
+
+}
+.free-simple-slider{
+    //max-width: 1280px;
+    margin: 0 auto;
 }
 .container {
 	
