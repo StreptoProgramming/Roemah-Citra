@@ -132,12 +132,6 @@ nav li a:hover{
 		    background: url(./img/pattern.jpg);
     background-repeat: repeat;
 }
-#boutbox-aboutus{
-	background: #fdeadb;
-	margin: 30px auto;
-	padding: 50px 10px;
-}
-}
 #about #boutbox {
 
 	background: #fdeadb;
@@ -145,16 +139,11 @@ nav li a:hover{
 }
 #about #boutbox .bagi{
 	float: left;
-<<<<<<< HEAD
-	width: 50%;
-	margin: 
-=======
 	width: 40%;
 }
 #about #boutbox .bagi2{
 	float: left;
 	width: 60%;
->>>>>>> 39816ee5ecaf8257b343a1f13f8f628e94eb66f5
 }
 #about .bulet {
 	background: #000;
@@ -209,20 +198,6 @@ width: 90%;
     display: block;
     margin: 30px auto;
 }
-#vendor{
-	background: #fdeadb;
-	margin: 30px auto;
-	padding: 50px 50px;
-}
-.icon{
-	display: inline-block;
-	position: relative;
-	width: 150px;
-	height: 150px;
-	border-radius: 100%;
-	float:left;
-	margin: 10px;
-}
 
 .pack {
 width: 250px;
@@ -249,7 +224,7 @@ width: 250px;
 	display: table;
 }
 #subscribe .email,#subscribe .submit {
-	padding: 10px;
+padding: 10px;
     border: 0;
     line-height: 30px;
     font-size: 20px;
@@ -315,7 +290,6 @@ footer {
 	padding: 15px;
 	color: #999;
 }
-
 .Ourpackage {
 	background: #FFFFFF;
 	text-align: center;
