@@ -657,4 +657,104 @@ footer {
 	font-family: "bebas";
 }
 
+.pad_package_WO{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 100px;
+	font-family: "bebas"; 
+}
 
+.pad_WO{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 100px;
+	font-family: "bebas";
+}
+
+.pict_package_WO{
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pad_pildekorasi{
+	background-position: center;
+	background : white;
+	padding: 50px;
+	font-family: "bebas";
+	letter-spacing: 3px;
+}
+
+.pad_pildekorasi2{
+	background-position: center;
+	background : white;
+	padding: 100px;
+	font-family: "bebas";
+}
+
+.pilihan_dekorasi-kiri{
+	width: 400px;
+	height: 300px;
+	float : left;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.pilihan_dekorasi-kanan{
+	width: 400px;
+	height: 300px;
+	float : right;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
+
+.nama_dekor_kiri{
+	width: 400px;
+	height: 100px;
+	float : left;
+	background: #F69B81;
+	background-size: 100%;
+	background position: center;
+	font-family: "arno pro";
+}
+
+.nama_dekor_kanan{
+	width: 400px;
+	height: 100px;
+	float : right;
+	background: #F69B81;
+	background-size: 100%;
+	background position: center;
+	font-family: "arno pro";
+}
+
+.pad_dekor_pelaminan{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 100px;
+	font-family: "bebas";
+	letter-spacing: 3px;
+}
+
+.pad_dekor{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 100px;
+	font-family: "bebas";
+}
+
+.pict_dekor {
+	width: 300px;
+	height: 300px;
+	float : right;
+	margin: 2px;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+}
