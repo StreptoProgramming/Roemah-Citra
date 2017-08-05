@@ -758,3 +758,10 @@ footer {
 	background-size: 100%;
 	background-position: center;
 }
+
+.pad_WO2{
+	padding-position: center;
+	background: #FFFFFF;
+	padding: 10px;
+	font-family: "bebas";
+}
