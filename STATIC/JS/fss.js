@@ -63,7 +63,7 @@ $(document).ready(function () {
 
                 //===== ARROWS =====
                 if (settings.arrows === true) {
-                    self.after(' <a class="arrows prev-arrow" href="#"><img src="img/angle-left.svg" alt=""></a><a class="arrows next-arrow" href="#"><img src="img/angle-right.svg" alt=""></a>');
+                    self.after(' <a class="arrows prev-arrow" href="#"><img src="./STATIC/CSS/img/angle-left.png" alt=""></a><a class="arrows next-arrow" href="#"><img src="./STATIC/CSS/img/angle-right.png" alt=""></a>');
                 }
 
                 // only 2 item in the list and "slide" animation type
