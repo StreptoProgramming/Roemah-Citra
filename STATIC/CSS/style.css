@@ -202,7 +202,7 @@ nav li a:hover{
 background: #ddd;
     width: 60%;
     /* height: 60%; */
-    margin: 0 auto -50%;
+    margin-top:-60px ;
 }
 #testimoni  .bulet img{
 width: 90%;
