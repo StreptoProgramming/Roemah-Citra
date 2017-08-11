@@ -463,7 +463,7 @@ footer #footmax{
 	padding: 100px;
 }
 
-.pict_pilZamrud{
+.pict_pilpackage-kiri{
 	width: 400px;
 	height: 300px;
 	float : left;
@@ -473,13 +473,34 @@ footer #footmax{
 	font-family: "arno pro";
 }
 
-.nama_package{
+.pict_pilpackage-kanan{
+	width: 400px;
+	height: 300px;
+	float : right;
+	background : black;
+	background-size: 100%;
+	background-position: center;
+	font-family: "arno pro";
+}
+
+.nama_package-kiri{
 	width: 400px;
 	height: 100px;
 	float : left;
 	background: #F69B81;
 	background-size: 100%;
 	background position: center;
+	font-family: "arno pro";
+}
+
+.nama_package-kanan{
+	width: 400px;
+	height: 100px;
+	float : right;
+	background: #F69B81;
+	background-size: 100%;
+	background position: center;
+	font-family: "arno pro";
 }
 
 .klik_ketentuan{
@@ -545,7 +566,7 @@ footer #footmax{
 	background: #F69B81;
 	background-size: 100%;
 	background position: center;
-	font-family: "arno pro";
+	font-family: "Arno Pro";
 }
 
 .nama_menu_kanan{
