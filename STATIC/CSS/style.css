@@ -445,7 +445,7 @@ footer #footmax{
 
 .padpilmenu{
 	background-position: center;
-	background: #FFFFFF;
+	background: #FDEADB;
 	padding: 50px;
 	font-family: "bebas";
 }
@@ -593,9 +593,10 @@ footer #footmax{
 
 .pad_rias{
 	background-position: center;
-	background: #FFFFFF;
+	background: #FDEADB;
 	padding: 30px;
 	letter-spacing: 2px;
+	list-style-type: disc;
 }
 
 .pict_rias{
@@ -610,7 +611,7 @@ footer #footmax{
 
 .pad_catering_package{
 	background-position: center;
-	background: #FFFFFF;
+	background: #FDEADB;
 	padding: 30px;
 	letter-spacing: 2px;
 }
@@ -627,7 +628,7 @@ footer #footmax{
 
 .pad_dekorasi_package{
 	background-position: center;
-	background: #FFFFFF;
+	background: #FDEADB;
 	padding: 30px;
 	letter-spacing: 2px;
 }
@@ -644,7 +645,7 @@ footer #footmax{
 
 .pad_WO_package{
 	background-position: center;
-	background: #FFFFFF;
+	background: #FDEADB;
 	padding: 30px;
 	letter-spacing: 2px;
 }
@@ -668,14 +669,14 @@ footer #footmax{
 
 .pad_profesi{
 	background-position: center;
-	background: #FFFFFF;
+	background: #FDEADB;
 	padding: 30px;
 	letter-spacing: 2px;
 }
 
 .pad_entertainment{
 	background-position: center;
-	background: #FFFFFF;
+	background: #FDEADB;
 	padding: 30px;
 	letter-spacing: 2px;
 }
