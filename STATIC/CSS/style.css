@@ -525,9 +525,11 @@ footer #footmax{
 
 .pad_isi_ketentuan{
 	padding-position: center;
-	background: #FFFFFF;
-	padding: 100px;
+	background: #FDEADB;
+	padding: 100px;	
 }
+
+
 
 .padpilmenu {
 	padding-position: center;
@@ -886,4 +888,11 @@ footer #footmax{
 -moz-border-radius: 25px;
 border-radius: 25px;
 background: red;
+}
+
+.pad_fasilitas_paket_all_in{
+	padding-position: center;
+	background: #FDEADB;
+	padding: 100px;
+	margin-left: 40px;
 }
