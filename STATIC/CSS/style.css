@@ -692,7 +692,7 @@ footer #footmax{
 
 .pad_judul_menu_kostum{
 	padding-position: center;
-	background: #FFFFFF;
+	background: #FDEADB;
 	padding: 10px;
 	font-family: "bebas"; 
 	margin:0;
@@ -700,7 +700,7 @@ footer #footmax{
 
 .pad_list_menu_kostum{
 	padding-position: center;
-	background: #FFFFFF;
+	background: #FDEADB;
 	padding: 50px;
 	font-family: "arno pro";  
 	margin:1;
@@ -895,4 +895,29 @@ background: red;
 	background: #FDEADB;
 	padding: 100px;
 	margin-left: 40px;
+}
+
+.padketentuan-bawah{
+	padding-position: center;
+	background: #FDEADB;
+	padding: 30px;
+}
+
+.padkostum-bawah{
+	padding-position: center;
+	background: #FDEADB;
+	padding: 30px;
+}
+
+.klik_kostum{
+	padding: 10px 30px;
+	text-align: center;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: serif;
+    outline: none;
+    height: auto;
+    margin: auto;
+    display: table;
 }
