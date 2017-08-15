@@ -722,16 +722,25 @@ footer #footmax{
 
 .pad_WO{
 	padding-position: center;
-	background: #FFFFFF;
+	background: #FDEADB;
 	padding: 100px;
-	font-family: "bebas";
+	font-family: "Arno";
+}
+
+.pad_judul_WO{
+	padding-position: center;
+	background: #FDEADB;
+	padding: 10px;
+	font-family: "bebas"; 
+	margin:0;
 }
 
 .pict_package_WO{
-	width: 300px;
+	width: 400px;
 	height: 300px;
 	float : right;
-	margin: 2px;
+	margin-top: -30px;
+	margin-right: -20px
 	background : black;
 	background-size: 100%;
 	background-position: center;
