@@ -121,6 +121,7 @@ nav li a:hover{
     //max-width: 1280px;
     margin: 0 auto;
 }
+
 .container {
 	
 }
@@ -137,6 +138,7 @@ nav li a:hover{
 	font-family: bebas,arial, sans-serif;
     margin: 30px auto;
 }
+
 #about{
 		    background: url(./img/pattern.jpg);
     background-repeat: repeat;
@@ -410,9 +412,9 @@ footer #footmax{
 	text-align: center;
 	padding: 50px;
 	font-family: "bebas";
-	float:none;
-	display:block;
+	letter-spacing: 2px;
 }
+
 .padnamapack li{
 	display:block;
 }
@@ -695,7 +697,7 @@ footer #footmax{
 	background: #FDEADB;
 	padding: 10px;
 	font-family: "bebas"; 
-	margin:0;
+	margin:0px;
 }
 
 .pad_list_menu_kostum{
@@ -703,7 +705,7 @@ footer #footmax{
 	background: #FDEADB;
 	padding: 50px;
 	font-family: "arno pro";  
-	margin:1;
+	margin:1px;
 }
 
 .pad_pil_kostum{
